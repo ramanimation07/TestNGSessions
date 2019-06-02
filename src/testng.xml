@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Ram Session" >
+  <test name="Testing all class in single shot" >
+    <classes>
+      <class name="com.testng.prog.Assertionprog"/>
+       <class name="com.testng.prog.Invocationcount"/>
+        <class name="com.testng.prog.MailTestprog"/>
+         <class name="com.testng.prog.Testngprog"/>
+    </classes>
+ </test>
+</suite>
